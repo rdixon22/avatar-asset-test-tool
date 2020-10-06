@@ -68,7 +68,7 @@ export async function runMain(collectionFolders: string[]) {
     const buildAssetsConfig = {
       assetFoldersAbsPath: assetFolders,
       workingDirAbsPath: workingFolder.name,
-      contentBaseUrl: `https://avatar-asset-test-tool-smoky.vercel.app`,
+      contentBaseUrl: `https://avatar-asset-test-tool-rbr1dl06d.vercel.app/`,
       collectionName: collectionFolder
     }
 

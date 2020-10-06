@@ -19,3 +19,5 @@ make test && make catalog
 ### AWS
 
 Use `UPLOAD_BUCKET_NAME` for the name of the bucket. Using `content-assets.decentraland.org` for production.
+
+https://play.decentraland.zone/?ALL_WEARABLES&TEST_WEARABLES=avatar-asset-test-tool-rbr1dl06d.vercel.app&realm=hephaestus-amber
