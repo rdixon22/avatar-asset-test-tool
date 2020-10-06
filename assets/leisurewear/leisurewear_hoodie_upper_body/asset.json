@@ -1,0 +1,33 @@
+{
+  "name": "leisurewear_hoodie_upper_body",
+  "i18n": {
+    "en": "Leisurewear Hoodie",
+    "es": "Hoodie de Leisurewear"
+  },
+  "tags": [
+    "hoodie",
+    "exclusive",
+    "launch",
+    "leisurewear",
+    "upper",
+    "body"
+  ],
+  "category": "upper_body",
+  "replaces": [],
+  "hides": [],
+
+  "main": [
+    {
+      "type": "BaseMale",
+      "model": "M_uBody_Leisurewear_Hoodie.glb",
+      "overrideReplaces": [],
+      "overrideHides": []
+    },
+    {
+      "type": "BaseFemale",
+      "model": "F_uBody_Leisurewear_Hoodie.glb"
+    }
+  ],
+  "rarity": "swanky",
+  "description": ""
+}
