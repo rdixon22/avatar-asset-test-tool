@@ -34,19 +34,24 @@ if (!module.parent) {
     'binance_us_collection',
     'cz_mercernary',
     'sugarclub_yumi',
-    'leisurewear',
+    'leisurewear'
   ]).catch((error) => console.log(error, error.stack))
 }
 
 export async function runMain(collectionFolders: string[]) {
   console.log(`Building catalog from folders '${collectionFolders.join(', ')}'...`)
+  console.log("cwd = " + process.cwd());
 
   const workingFolder = dirSync()
+
+  console.log("workingFolder = " + workingFolder.name);
+
   let allResponses: any[] = []
   const mapCategoryFolders: { [key: string]: string[] } = {}
 
   for (let collectionFolder of collectionFolders) {
     const categoryFolderAbsPath = getAssetFolderAbsPath(collectionFolder)
+    console.log("categoryFolderAbsPath = " + categoryFolderAbsPath);
 
     const categoryFolders = readdirSync(categoryFolderAbsPath)
     const assetFolders: string[] = []
@@ -91,6 +96,7 @@ export async function runMain(collectionFolders: string[]) {
   for (let collectionFolder of collectionFolders) {
     try {
       const categoryFolderAbsPath = getAssetFolderAbsPath(collectionFolder)
+      //console.log('PATH = ' + categoryFolderAbsPath)
       console.log('Generating content addressable files...')
       const assetFolders = mapCategoryFolders[collectionFolder]
       await Promise.all(
