@@ -40,7 +40,7 @@ if (!module.parent) {
 
 export async function runMain(collectionFolders: string[]) {
   console.log(`Building catalog from folders '${collectionFolders.join(', ')}'...`)
-  console.log("cwd = " + process.cwd());
+  //console.log("cwd = " + process.cwd());
 
   const workingFolder = dirSync()
 

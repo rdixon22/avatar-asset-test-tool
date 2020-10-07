@@ -13,15 +13,10 @@
     "body"
   ],
   "category": "upper_body",
-  "replaces": [],
-  "hides": [],
-
   "main": [
     {
       "type": "BaseMale",
-      "model": "M_uBody_Leisurewear_Hoodie.glb",
-      "overrideReplaces": [],
-      "overrideHides": []
+      "model": "M_uBody_Leisurewear_Hoodie.glb"
     },
     {
       "type": "BaseFemale",
