@@ -10,10 +10,10 @@ export async function processAssetAndBuildAssetDescription(
   collectionName?: string
 ) {
   if (!sourceFolderAbsPath.startsWith('/')) {
-    throw new Error('Expected source folder to be an absolute path')
+    throw new Error('Expected source folder to be abs path: ' + sourceFolderAbsPath)
   }
   if (!workingFolderAbsPath.startsWith('/')) {
-    throw new Error('Expected source folder to be an absolute path')
+    throw new Error('Expected source folder to be abs path: ' + workingFolderAbsPath)
   }
   const assetFolderName = basename(sourceFolderAbsPath)
   const categoryFolderName = basename(dirname(sourceFolderAbsPath))
