@@ -100,28 +100,28 @@ export async function runMain(collectionFolders: string[]) {
       console.error(`Error in ${collectionFolder}: ${e.stack}`)
     }
   }
-  console.log(JSON.stringify(
-    allResponses
-      .map((_, index) => {
-        if (_ === null) {
-          console.log(`Warning! Element ${index} of "allResponses" is null`)
-        }
-        return _
-      })
-      .filter(_ => !!_)
-      .map(_ => {
-        try {
-          return _.id
-        } catch (e) {
-          console.error(`Can't get element "id" of object ${JSON.stringify(_)}`)
-          throw e
-        }
-      })
-      .map(_ => _.split('/')[3])
-      .map(_ => ({ wearableId: _, maxIssuance: 0})),
-    null,
-    2
-  ))
+  // console.log(JSON.stringify(
+  //   allResponses
+  //     .map((_, index) => {
+  //       if (_ === null) {
+  //         console.log(`Warning! Element ${index} of "allResponses" is null`)
+  //       }
+  //       return _
+  //     })
+  //     .filter(_ => !!_)
+  //     .map(_ => {
+  //       try {
+  //         return _.id
+  //       } catch (e) {
+  //         console.error(`Can't get element "id" of object ${JSON.stringify(_)}`)
+  //         throw e
+  //       }
+  //     })
+  //     .map(_ => _.split('/')[3])
+  //     .map(_ => ({ wearableId: _, maxIssuance: 0})),
+  //   null,
+  //   2
+  // ))
 
   console.log('Cleaning up temporary files...')
   workingFolder.removeCallback()
