@@ -30,6 +30,7 @@
     "ipfs-unixfs-importer": "^0.40.0",
     "ipld": "^0.25.0",
     "ipld-in-memory": "^3.0.1",
+    "make": "^0.8.1",
     "mime-types": "^2.1.27",
     "uuid": "^3.3.3"
   },
