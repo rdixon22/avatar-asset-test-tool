@@ -1,0 +1,40 @@
+{
+  "name": "steampunk_hat",
+  "i18n": {
+    "en": "Steampunk Top Hat",
+    "es": "Sombrero de Steampunk",
+    "fr": "Chapeau haut-de-forme Steampunk"
+  },
+  "tags": [
+    "WonderZone",
+    "exclusive", 
+    "decentraland",
+    "mana",
+    "hat",
+    "steampunk",
+    "licensed"
+  ],
+  "category": "hat",
+  "replaces": 
+  [
+    "helmet"
+   ],
+   "hides": 
+   [
+    "hair"
+   ],
+
+  "main": 
+  [
+    {
+      "type": "BaseMale", 
+      "model": "steampunk_hat.glb"
+    },
+    {
+      "type": "BaseFemale", 
+      "model": "steampunk_hat.glb"
+    }
+  ],
+  "rarity": "legendary",
+  "description": "Steampunk top hat. Gives a bonus in the WonderMine game. Created by Maricela."
+}

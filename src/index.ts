@@ -34,7 +34,7 @@ if (!module.parent) {
     // 'binance_us_collection',
     // 'cz_mercernary',
     // 'sugarclub_yumi',
-    'leisurewear'
+    'wonderzone_steampunk'
   ]).catch((error) => console.log(error, error.stack))
 }
 
