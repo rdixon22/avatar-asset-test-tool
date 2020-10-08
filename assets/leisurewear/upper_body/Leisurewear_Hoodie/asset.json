@@ -16,11 +16,11 @@
   "main": [
     {
       "type": "BaseMale",
-      "model": "M_uBody_Leisurewear_Hoodie.glb"
+      "model": "M_uBody_Leisure_Hoodie.glb"
     },
     {
       "type": "BaseFemale",
-      "model": "F_uBody_Leisurewear_Hoodie.glb"
+      "model": "F_uBody_Leisure_Hoodie.glb"
     }
   ],
   "rarity": "swanky",
