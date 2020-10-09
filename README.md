@@ -20,4 +20,6 @@ make test && make catalog
 
 Use `UPLOAD_BUCKET_NAME` for the name of the bucket. Using `content-assets.decentraland.org` for production.
 
+### Deployment Link for Testing
+
 https://play.decentraland.zone/?ALL_WEARABLES&TEST_WEARABLES=avatar-asset-test-tool-theta.vercel.app
