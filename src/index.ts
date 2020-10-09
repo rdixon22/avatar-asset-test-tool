@@ -33,7 +33,7 @@ if (!module.parent) {
     // 'ethermon_trainer',
     // 'binance_us_collection',
     // 'cz_mercernary',
-    // 'sugarclub_yumi',
+    'wz_wonderbot',
     'wonderzone_steampunk'
   ]).catch((error) => console.log(error, error.stack))
 }
