@@ -25,7 +25,7 @@ if (!module.parent) {
     // 'community_contest',
     // 'stay_safe',
     // 'dg_summer_2020',
-    // 'wonderzone_meteorchaser',
+    'wonderzone_meteorchaser',
     // 'dappcraft_moonminer',
     // 'pm_outtathisworld',
     // 'dgtble_headspace',
