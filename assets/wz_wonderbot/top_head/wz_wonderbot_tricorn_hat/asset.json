@@ -15,7 +15,7 @@
         "cyber"
      ],
     "category": "top_head",
-    "replaces": [],
+    "replaces": ["helmet","hat"],
     "hides":["hat", "hair"],
     "main": [
         {
