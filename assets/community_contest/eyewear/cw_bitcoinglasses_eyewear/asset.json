@@ -18,8 +18,7 @@
    ],
   "category": "eyewear",
   "replaces": [
-    "mask",
-    "helmet"
+    "mask"
    ],
    "hides": [
   
