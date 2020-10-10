@@ -21,7 +21,7 @@ if (!module.parent) {
     // 'xmas_2019',
     // 'dcg_collection',
     // 'mch_collection',
-    // 'dcl_launch',
+    'dcl_launch',
     'community_contest',
     // 'stay_safe',
     // 'dg_summer_2020',
