@@ -14,7 +14,7 @@
         "robot",
         "cyber"
      ],
-    "category": "helmet",
+    "category": "top_head",
     "replaces": [],
     "hides":["head", "facial_hair"],
     "main": [
