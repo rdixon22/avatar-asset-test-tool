@@ -26,7 +26,7 @@
   "main": [
     {
       "type": "BaseMale", 
-      "model": "steampunk_mask.glb", 
+      "model": "steampunk_mask2.glb", 
       "overrideReplaces": [
          ],
          "overrideHides": [
