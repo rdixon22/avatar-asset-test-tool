@@ -1,0 +1,30 @@
+{
+    "name": "wz_wonderbot_hat",
+    "i18n": {
+      "en": "Wonderbot tricorn hat"
+    },
+    "rarity": "mythic",
+    "description": "Robotic head, allowing you to split your mind in two. By WonderZone 2020.",
+    "tags": [
+        "Wonderzone",
+        "Meteorchaser",
+        "game",
+        "hat",
+        "fashion",
+        "robot",
+        "cyber"
+     ],
+    "category": "top_head",
+    "replaces": [],
+    "hides":["hat", "hair"],
+    "main": [
+        {
+            "type": "BaseMale", 
+            "model": "M_Hat.glb"
+        },
+        {
+            "type": "BaseFemale", 
+            "model": "F_Hat.glb"
+        }
+    ]
+}  
