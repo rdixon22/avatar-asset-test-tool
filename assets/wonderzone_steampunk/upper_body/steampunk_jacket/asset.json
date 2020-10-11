@@ -12,6 +12,7 @@
     "upper_body",
     "coat",
     "jacket",
+    "corset",
     "community",
     "licensed",
     "steampunk"
@@ -31,7 +32,7 @@
       ]
     },
     {
-        "type": "BaseFemale", "model": "F_Upper_body_vest_of_the_meteorchaser.glb"
+        "type": "BaseFemale", "model": "steampunk_corset_female.glb"
     }
   ],
   "rarity": "legendary",
