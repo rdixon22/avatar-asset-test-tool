@@ -7,7 +7,7 @@
   },
   "tags": [
     "WonderZone",
-    "exclusive", 
+    "exclusive",
     "decentraland",
     "mana",
     "hat",
@@ -15,23 +15,19 @@
     "licensed"
   ],
   "category": "hat",
-  "replaces": 
-  [
+  "replaces": [
     "helmet"
-   ],
-   "hides": 
-   [
+  ],
+  "hides": [
     "hair"
-   ],
+  ],
 
-  "main": 
-  [
-    {
-      "type": "BaseMale", 
+  "main": [{
+      "type": "BaseMale",
       "model": "steampunk_hat_male.glb"
     },
     {
-      "type": "BaseFemale", 
+      "type": "BaseFemale",
       "model": "steampunk_hat_female.glb"
     }
   ],

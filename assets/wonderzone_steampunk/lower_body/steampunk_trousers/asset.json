@@ -22,9 +22,9 @@
     },
     {
       "type": "BaseFemale",
-      "model": "F_Lower_body_trousers_of_the_meteorchaser.glb"
+      "model": "steampunk_trousers_female.glb"
     }
   ],
   "rarity": "legendary",
-  "description": "Steampunk jodhpur trousers. Gives a bonus in the WonderMine game. Created by Maricela."
+  "description": "Steampunk jodhpur trousers or leggings. Gives a bonus in the WonderMine game. Created by Maricela."
 }

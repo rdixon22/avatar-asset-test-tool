@@ -6,7 +6,7 @@
   },
   "tags": [
     "WonderZone",
-    "exclusive", 
+    "exclusive",
     "decentraland",
     "mana",
     "upper_body",
@@ -16,23 +16,19 @@
     "community",
     "licensed",
     "steampunk"
-   ],
+  ],
   "category": "upper_body",
-  "replaces": [
-   ],
-   "hides": [
-   ],
-  "main": [
-    {
-      "type": "BaseMale", 
-      "model": "steampunk_jacket_male.glb", 
-      "overrideReplaces": [
-      ],
-      "overrideHides": [
-      ]
+  "replaces": [],
+  "hides": [],
+  "main": [{
+      "type": "BaseMale",
+      "model": "steampunk_jacket_male.glb",
+      "overrideReplaces": [],
+      "overrideHides": []
     },
     {
-        "type": "BaseFemale", "model": "steampunk_corset_female.glb"
+      "type": "BaseFemale",
+      "model": "steampunk_corset_female.glb"
     }
   ],
   "rarity": "legendary",

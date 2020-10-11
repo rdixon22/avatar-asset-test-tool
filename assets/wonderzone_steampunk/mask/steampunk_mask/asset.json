@@ -7,33 +7,32 @@
 
   "tags": [
     "WonderZone",
-    "exclusive", 
+    "exclusive",
     "decentraland",
     "mana",
     "steampunk",
     "mask",
     "community",
     "licensed"
-   ],
+  ],
   "category": "mask",
   "replaces": [
     "helmet"
-   ],
-   "hides": [
+  ],
+  "hides": [
     "facial_hair"
-   ],
-
-  "main": [
+  ],
+  "main": [{
+      "type": "BaseMale",
+      "model": "steampunk_mask.glb",
+      "overrideReplaces": [],
+      "overrideHides": []
+    },
     {
-      "type": "BaseMale", 
-      "model": "steampunk_mask.glb", 
-      "overrideReplaces": [
-         ],
-         "overrideHides": [
-         ]
-      },
-      {"type": "BaseFemale", "model": "steampunk_mask.glb"}
-        ],
-        "rarity": "legendary",
-        "description": "Steampunk mask. Gives a bonus in the WonderMine game. Created by Maricela"
-      }
+      "type": "BaseFemale",
+      "model": "steampunk_mask.glb"
+    }
+  ],
+  "rarity": "legendary",
+  "description": "Steampunk mask. Gives a bonus in the WonderMine game. Created by Maricela"
+}
