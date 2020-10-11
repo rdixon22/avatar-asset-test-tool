@@ -32,7 +32,7 @@
     },
     {
       "type": "BaseFemale", 
-      "model": "steampunk_hat.glb"
+      "model": "steampunk_hat_female.glb"
     }
   ],
   "rarity": "legendary",
