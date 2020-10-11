@@ -28,7 +28,7 @@
   [
     {
       "type": "BaseMale", 
-      "model": "steampunk_hat.glb"
+      "model": "steampunk_hat_male.glb"
     },
     {
       "type": "BaseFemale", 

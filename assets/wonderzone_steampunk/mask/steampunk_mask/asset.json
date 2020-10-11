@@ -26,13 +26,13 @@
   "main": [
     {
       "type": "BaseMale", 
-      "model": "steampunk_mask2.glb", 
+      "model": "steampunk_mask.glb", 
       "overrideReplaces": [
          ],
          "overrideHides": [
          ]
       },
-      {"type": "BaseFemale", "model": "F_Mask_meteorite_dustmask.glb"}
+      {"type": "BaseFemale", "model": "steampunk_mask.glb"}
         ],
         "rarity": "legendary",
         "description": "Steampunk mask. Gives a bonus in the WonderMine game. Created by Maricela"
