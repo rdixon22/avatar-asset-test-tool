@@ -28,11 +28,11 @@ if (!module.parent) {
     'wonderzone_meteorchaser',
     'dappcraft_moonminer',
     // 'pm_outtathisworld',
-    // 'dgtble_headspace',
+    'dgtble_headspace',
     // 'moonshot_2020',
     // 'ethermon_trainer',
     // 'binance_us_collection',
-    // 'cz_mercernary',
+    'cz_mercernary',
     'wz_wonderbot',
     'wonderzone_steampunk'
   ]).catch((error) => console.log(error, error.stack))
