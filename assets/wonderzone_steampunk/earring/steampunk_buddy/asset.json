@@ -1,0 +1,39 @@
+{
+  "name": "steampunk_buddy",
+  "i18n": {
+    "en": "Steampunk drone",
+    "es": "Transmisores de steampunk"
+  },
+
+  "tags": [
+    "WonderZone",
+    "exclusive", 
+    "decentraland",
+    "mana",
+    "licensed",
+    "earrings",
+    "headphones",
+    "steampunk"
+   ],
+  "category": "earring",
+  "replaces": [
+
+   ],
+   "hides": [
+  
+   ],
+
+  "main": [
+    {
+      "type": "BaseMale", 
+      "model": "steampunk_buddy.glb", 
+      "overrideReplaces": [
+         ],
+         "overrideHides": [
+         ]
+      },
+      {"type": "BaseFemale", "model": "steampunk_buddy.glb"}
+        ],
+        "rarity": "legendary",
+        "description": "Crafting reward from WonderZone. Gives the wearer a bonus while mining meteorites. Created by Chestnutbruze"
+      }
