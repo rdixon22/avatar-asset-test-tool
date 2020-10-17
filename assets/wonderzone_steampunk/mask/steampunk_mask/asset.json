@@ -17,7 +17,7 @@
   ],
   "category": "mask",
   "replaces": [
-    "eyewear"
+    "eyewear", "eye_wear"
   ],
   "hides": [
     "facial_hair"
